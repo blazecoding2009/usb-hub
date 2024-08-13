@@ -2413,12 +2413,6 @@
 		(uuid "4ee23691-59f0-4a6f-a2e0-afae3cbb3e10")
 	)
 	(junction
-		(at 115.57 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b1cac12-d9bd-4898-b365-a845c0294197")
-	)
-	(junction
 		(at 82.55 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2497,6 +2491,10 @@
 		(uuid "ff0c41ee-1d27-45aa-b1bb-2799bd719083")
 	)
 	(no_connect
+		(at 115.57 160.02)
+		(uuid "1b1d4b3f-0a5f-4739-beed-3bdfe964ed8e")
+	)
+	(no_connect
 		(at 140.97 154.94)
 		(uuid "3e01bd44-1ee0-44f8-809f-d95ee15ca4c0")
 	)
@@ -2571,16 +2569,6 @@
 			(type default)
 		)
 		(uuid "261d312b-d811-4ca1-99d1-859c21ece7db")
-	)
-	(wire
-		(pts
-			(xy 115.57 160.02) (xy 118.11 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a9bbb0-5586-4549-9afe-e65e7fb16522")
 	)
 	(wire
 		(pts
@@ -4420,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 115.57 165.1 0)
+		(at 118.11 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4428,7 +4416,7 @@
 		(dnp no)
 		(uuid "48cfddb2-e997-42a8-9b0c-44b88c1c1bd4")
 		(property "Reference" "#PWR022"
-			(at 115.57 171.45 0)
+			(at 118.11 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4425,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 115.316 168.402 0)
+			(at 117.856 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 165.1 0)
+			(at 118.11 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 165.1 0)
+			(at 118.11 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 165.1 0)
+			(at 118.11 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5811,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 162.56 180)
+		(at 118.11 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5832,7 +5820,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6207248-a809-4334-be88-497585064ca8")
 		(property "Reference" "C5"
-			(at 113.03 163.8238 0)
+			(at 115.57 163.8238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5829,7 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 113.03 161.2838 0)
+			(at 115.57 161.2838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 115.57 162.56 0)
+			(at 118.11 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 162.56 0)
+			(at 118.11 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5856,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 162.56 0)
+			(at 118.11 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
