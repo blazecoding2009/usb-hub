@@ -1467,25 +1467,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -12.7 13.462 0)
+			(property "Reference" "J1"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TYPE-C-31-M-12"
-				(at -12.7 -13.462 0)
+			(property "Value" "TYPE_C"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1645,8 +1643,8 @@
 			)
 			(symbol "TYPE-C-31-M-12_0_0"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1657,7 +1655,7 @@
 				)
 				(pin power_in line
 					(at 17.78 -10.16 180)
-					(length 5.08)
+					(length 5.08) hide
 					(name "GND"
 						(effects
 							(font
@@ -1665,7 +1663,25 @@
 							)
 						)
 					)
-					(number "A1_B12"
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1683,7 +1699,7 @@
 							)
 						)
 					)
-					(number "A4_B9"
+					(number "A4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1764,6 +1780,42 @@
 					)
 				)
 				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "GND"
@@ -1773,7 +1825,7 @@
 							)
 						)
 					)
-					(number "B1_A12"
+					(number "B12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1783,7 +1835,7 @@
 				)
 				(pin power_in line
 					(at 17.78 10.16 180)
-					(length 5.08)
+					(length 5.08) hide
 					(name "VBUS"
 						(effects
 							(font
@@ -1791,7 +1843,7 @@
 							)
 						)
 					)
-					(number "B4_A9"
+					(number "B4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1864,6 +1916,24 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5647,13 +5717,13 @@
 		(pin "S4"
 			(uuid "077fad20-85e4-4d4c-9101-3080819ade4e")
 		)
-		(pin "B4_A9"
+		(pin "B1"
 			(uuid "04fddb06-8ea7-4285-8586-1526ab99ec3a")
 		)
 		(pin "B6"
 			(uuid "9155f397-6ee0-477c-9d7a-1b7cc009fe18")
 		)
-		(pin "B1_A12"
+		(pin "A4"
 			(uuid "a90afb66-f914-4bec-a417-e992f31539d6")
 		)
 		(pin "A5"
@@ -5665,7 +5735,7 @@
 		(pin "A7"
 			(uuid "871f9ce2-9fe6-4b3e-abe6-31cd69762ab3")
 		)
-		(pin "A1_B12"
+		(pin "B12"
 			(uuid "a94fd28e-1f06-4c86-a490-89e590843a52")
 		)
 		(pin "A8"
@@ -5674,7 +5744,7 @@
 		(pin "S1"
 			(uuid "271e1ddd-fd52-49c8-84aa-3e2c9c5ac1db")
 		)
-		(pin "A4_B9"
+		(pin "A9"
 			(uuid "ce46036a-fafe-483a-95a4-3e7733ee41ff")
 		)
 		(pin "B5"
@@ -5688,6 +5758,18 @@
 		)
 		(pin "B7"
 			(uuid "bda9a88d-ebbb-49d4-9a03-14bc9d32f9c8")
+		)
+		(pin "A12"
+			(uuid "682b88bb-eaee-4af8-a737-08d78a953c57")
+		)
+		(pin "A1"
+			(uuid "be1922bb-5c8b-4b3f-bda6-f76f13562ce8")
+		)
+		(pin "B9"
+			(uuid "6736b872-f789-4a97-bd0b-9283ab32b639")
+		)
+		(pin "B4"
+			(uuid "fce26b93-9786-4312-8b94-4f0c192b0300")
 		)
 		(instances
 			(project ""
