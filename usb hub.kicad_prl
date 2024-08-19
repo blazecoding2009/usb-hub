@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -80,25 +80,13 @@
   "project": {
     "files": [
       {
-        "name": "usb hub.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 320,
-          "pos_y": 253,
-          "size_x": 1280,
-          "size_y": 543
-        }
-      },
-      {
         "name": "usb hub.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 320,
-          "pos_y": 253,
+          "pos_y": 290,
           "size_x": 1280,
           "size_y": 720
         }
